@@ -17,8 +17,9 @@ debugged, and trusted.
 
 | Project | What it demonstrates | Stack |
 |---|---|---|
+| **[Westlake Tissue Segmentation](https://github.com/JerryDengdmr/westlake-tissue-segmentation)** | Production-constrained computational pathology, controlled ablations, annotation audits, source-aware data engineering, and deployment validation | PyTorch · semantic segmentation · data quality |
+| **[PPTAgent](https://github.com/JerryDengdmr/ppt-agent)** | Natural-language PowerPoint editing with typed plans, default dry-runs, confirmation, read-back verification, rollback, and traces | Python · python-pptx · Pydantic · agent evals |
 | **[StockRadar](https://github.com/JerryDengdmr/stock-radar-case-study)** | Always-on service, staged decision funnel, state reconciliation, failure recovery, and forward evaluation across 390+ live streams | Python · asyncio · SQLite · LLM APIs |
-| **[Agent Reliability Lab](https://github.com/JerryDengdmr/agent-reliability-lab)** | Deterministic gates, failure injection, tool-trace assertions, and regression testing for probabilistic systems | Python · agent evals · CI |
 | **[Degree Path Planner](https://github.com/JerryDengdmr/umich-degree-path-planner)** | Privacy-first transcript processing, explainable requirement auditing, value scoring, and availability-aware constraints | Python · TypeScript contracts · REST data |
 
 ### Current interests
@@ -31,8 +32,8 @@ debugged, and trusted.
 ### A few measured outcomes
 
 - Reduced one AI-assisted pipeline from roughly **20 minutes to 4 minutes**
-- Built and evaluated a pathology segmentation pipeline across **~70k tiles**
-- Reached **0.967 held-out Dice** under a two-second inference constraint
+- Built and evaluated a pathology segmentation pipeline across **~74k training tiles**
+- Reached **0.9711 internal non-empty Dice** under a two-second inference constraint
 - Cut an enterprise reporting workflow’s update time by approximately **3×**
 
 ### Connect
